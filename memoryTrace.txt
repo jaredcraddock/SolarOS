@@ -1,0 +1,1281 @@
+nextFit method
+helloNeeded to find a memory block of atleast size163
+Found a memory block of size4837
+Old block now has size4674
+4674 ,X ,X ,
+
+
+Needed to find a memory block of atleast size56
+Found a memory block of size163
+Old block now has size107
+4674 ,X ,107 ,X ,
+
+
+Needed to find a memory block of atleast size47
+Found a memory block of size107
+Old block now has size60
+4674 ,X ,60 ,X ,X ,
+
+
+4674 ,X ,60 ,X ,47 ,
+
+
+Needed to find a memory block of atleast size20
+Found a memory block of size4674
+Old block now has size4654
+4654 ,X ,60 ,X ,47 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+4654 ,X ,60 ,X ,67 ,
+
+
+4654 ,X ,60 ,X ,67 ,
+
+
+4654 ,X ,60 ,X ,67 ,
+
+
+Needed to find a memory block of atleast size180
+Found a memory block of size4654
+Old block now has size4474
+4474 ,X ,60 ,X ,67 ,X ,
+
+
+Needed to find a memory block of atleast size127
+Found a memory block of size180
+Old block now has size53
+4474 ,X ,60 ,X ,67 ,53 ,X ,
+
+
+Needed to find a memory block of atleast size29
+Found a memory block of size67
+Old block now has size38
+4474 ,X ,60 ,X ,38 ,53 ,127 ,X ,
+
+
+Needed to find a memory block of atleast size123
+Found a memory block of size4474
+Old block now has size4351
+4351 ,X ,60 ,X ,38 ,53 ,127 ,29 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+4351 ,X ,60 ,X ,91 ,127 ,29 ,123 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+4351 ,X ,60 ,X ,91 ,156 ,123 ,
+
+
+4351 ,X ,60 ,X ,91 ,156 ,123 ,
+
+
+Needed to find a memory block of atleast size8
+Found a memory block of size60
+Old block now has size52
+4351 ,X ,52 ,X ,91 ,156 ,123 ,X ,
+
+
+Needed to find a memory block of atleast size63
+Found a memory block of size156
+Old block now has size93
+4351 ,X ,52 ,X ,91 ,93 ,123 ,8 ,X ,
+
+
+Needed to find a memory block of atleast size75
+Found a memory block of size93
+Old block now has size18
+4351 ,X ,52 ,X ,91 ,18 ,123 ,8 ,63 ,X ,
+
+
+Needed to find a memory block of atleast size35
+Found a memory block of size4351
+Old block now has size4316
+4316 ,X ,52 ,X ,91 ,18 ,123 ,8 ,63 ,75 ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size75
+Old block now has size5
+4316 ,X ,52 ,X ,91 ,18 ,123 ,8 ,63 ,5 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+4316 ,X ,52 ,X ,109 ,123 ,8 ,63 ,5 ,X ,70 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+4316 ,X ,52 ,X ,109 ,131 ,63 ,5 ,X ,70 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+4316 ,X ,52 ,X ,109 ,131 ,68 ,X ,70 ,
+
+
+4316 ,X ,52 ,X ,109 ,131 ,68 ,X ,70 ,
+
+
+Needed to find a memory block of atleast size28
+Found a memory block of size109
+Old block now has size81
+4316 ,X ,52 ,X ,81 ,131 ,68 ,X ,70 ,X ,
+
+
+Needed to find a memory block of atleast size94
+Found a memory block of size131
+Old block now has size37
+4316 ,X ,52 ,X ,81 ,37 ,68 ,X ,70 ,X ,X ,
+
+
+Needed to find a memory block of atleast size44
+Found a memory block of size70
+Old block now has size26
+4316 ,X ,52 ,X ,81 ,37 ,68 ,X ,26 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size182
+Found a memory block of size4316
+Old block now has size4134
+4134 ,X ,52 ,X ,81 ,37 ,68 ,X ,26 ,X ,X ,44 ,X ,
+
+
+Needed to find a memory block of atleast size185
+Found a memory block of size4134
+Old block now has size3949
+3949 ,X ,52 ,X ,81 ,37 ,68 ,X ,26 ,X ,X ,44 ,182 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3949 ,X ,52 ,X ,118 ,68 ,X ,26 ,X ,X ,44 ,182 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3949 ,X ,52 ,X ,118 ,68 ,X ,26 ,X ,X ,226 ,X ,
+
+
+3949 ,X ,52 ,X ,118 ,68 ,X ,26 ,X ,X ,226 ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size3949
+Old block now has size3804
+3804 ,X ,52 ,X ,118 ,68 ,X ,26 ,X ,X ,226 ,X ,X ,
+
+
+Needed to find a memory block of atleast size193
+Found a memory block of size226
+Old block now has size33
+3804 ,X ,52 ,X ,118 ,68 ,X ,26 ,X ,X ,33 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size22
+Found a memory block of size3804
+Old block now has size3782
+3782 ,X ,52 ,X ,118 ,68 ,X ,26 ,X ,X ,33 ,X ,X ,193 ,X ,
+
+
+Needed to find a memory block of atleast size50
+Found a memory block of size52
+Old block now has size2
+3782 ,X ,2 ,X ,118 ,68 ,X ,26 ,X ,X ,33 ,X ,X ,193 ,22 ,X ,
+
+
+Needed to find a memory block of atleast size132
+Found a memory block of size3782
+Old block now has size3650
+3650 ,X ,2 ,X ,118 ,68 ,X ,26 ,X ,X ,33 ,X ,X ,193 ,22 ,50 ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size193
+Old block now has size123
+3650 ,X ,2 ,X ,118 ,68 ,X ,26 ,X ,X ,33 ,X ,X ,123 ,22 ,50 ,132 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3650 ,X ,2 ,X ,186 ,X ,26 ,X ,X ,33 ,X ,X ,123 ,22 ,50 ,132 ,70 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3650 ,X ,2 ,X ,186 ,X ,26 ,X ,X ,33 ,X ,X ,145 ,50 ,132 ,70 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3650 ,X ,2 ,X ,186 ,X ,26 ,X ,X ,33 ,X ,X ,145 ,182 ,70 ,
+
+
+3650 ,X ,2 ,X ,186 ,X ,26 ,X ,X ,33 ,X ,X ,145 ,182 ,70 ,
+
+
+Needed to find a memory block of atleast size139
+Found a memory block of size182
+Old block now has size43
+3650 ,X ,2 ,X ,186 ,X ,26 ,X ,X ,33 ,X ,X ,145 ,43 ,70 ,X ,
+
+
+Needed to find a memory block of atleast size18
+Found a memory block of size26
+Old block now has size8
+3650 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,145 ,43 ,70 ,139 ,X ,
+
+
+Needed to find a memory block of atleast size135
+Found a memory block of size139
+Old block now has size4
+3650 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,145 ,43 ,70 ,4 ,18 ,X ,
+
+
+Needed to find a memory block of atleast size23
+Found a memory block of size3650
+Old block now has size3627
+3627 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,145 ,43 ,70 ,4 ,18 ,135 ,X ,
+
+
+Needed to find a memory block of atleast size8
+Found a memory block of size70
+Old block now has size62
+3627 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,145 ,43 ,62 ,4 ,18 ,135 ,23 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3627 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,188 ,62 ,4 ,18 ,135 ,23 ,8 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3627 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,188 ,66 ,18 ,135 ,23 ,8 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3627 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,188 ,66 ,153 ,23 ,8 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3627 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,188 ,66 ,153 ,31 ,
+
+
+3627 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,188 ,66 ,153 ,31 ,
+
+
+Needed to find a memory block of atleast size90
+Found a memory block of size3627
+Old block now has size3537
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,188 ,66 ,153 ,31 ,X ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size153
+Old block now has size142
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,188 ,66 ,142 ,31 ,90 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,254 ,142 ,31 ,90 ,11 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,254 ,173 ,90 ,11 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,254 ,173 ,101 ,
+
+
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,254 ,173 ,101 ,
+
+
+Needed to find a memory block of atleast size63
+Found a memory block of size173
+Old block now has size110
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,254 ,110 ,101 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,364 ,101 ,63 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,364 ,164 ,
+
+
+3537 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,364 ,164 ,
+
+
+Needed to find a memory block of atleast size155
+Found a memory block of size3537
+Old block now has size3382
+3382 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,364 ,164 ,X ,
+
+
+Needed to find a memory block of atleast size64
+Found a memory block of size164
+Old block now has size100
+3382 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,364 ,100 ,155 ,X ,
+
+
+Needed to find a memory block of atleast size142
+Found a memory block of size3382
+Old block now has size3240
+3240 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,364 ,100 ,155 ,64 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3240 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,464 ,155 ,64 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3240 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,464 ,219 ,X ,
+
+
+3240 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,464 ,219 ,X ,
+
+
+Needed to find a memory block of atleast size123
+Found a memory block of size219
+Old block now has size96
+3240 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,464 ,96 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+3240 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,560 ,X ,123 ,
+
+
+3240 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,560 ,X ,123 ,
+
+
+Needed to find a memory block of atleast size56
+Found a memory block of size560
+Old block now has size504
+3240 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,504 ,X ,123 ,X ,
+
+
+Needed to find a memory block of atleast size166
+Found a memory block of size3240
+Old block now has size3074
+3074 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,504 ,X ,123 ,X ,X ,
+
+
+Needed to find a memory block of atleast size127
+Found a memory block of size166
+Old block now has size39
+3074 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,33 ,X ,X ,504 ,X ,123 ,X ,39 ,X ,
+
+
+Needed to find a memory block of atleast size29
+Found a memory block of size33
+Old block now has size4
+3074 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,4 ,X ,X ,504 ,X ,123 ,X ,39 ,127 ,X ,
+
+
+Needed to find a memory block of atleast size35
+Found a memory block of size3074
+Old block now has size3039
+3039 ,X ,2 ,X ,186 ,X ,8 ,X ,X ,4 ,X ,X ,504 ,X ,123 ,X ,39 ,127 ,29 ,X ,
+
+
+Needed to find a memory block of atleast size28
+Found a memory block of size186
+Old block now has size158
+3039 ,X ,2 ,X ,158 ,35 ,8 ,X ,X ,4 ,X ,X ,504 ,X ,123 ,X ,39 ,127 ,29 ,X ,X ,
+
+
+Needed to find a memory block of atleast size94
+Found a memory block of size123
+Old block now has size29
+3039 ,X ,2 ,X ,158 ,35 ,8 ,28 ,X ,4 ,X ,X ,504 ,X ,29 ,X ,39 ,127 ,29 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size185
+Found a memory block of size3039
+Old block now has size2854
+2854 ,X ,2 ,X ,158 ,35 ,8 ,28 ,94 ,4 ,X ,X ,504 ,X ,29 ,X ,39 ,127 ,29 ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size187
+Found a memory block of size504
+Old block now has size317
+2854 ,X ,2 ,X ,158 ,35 ,8 ,28 ,94 ,4 ,185 ,X ,317 ,X ,29 ,X ,39 ,127 ,29 ,X ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size2854
+Old block now has size2709
+2709 ,X ,2 ,X ,158 ,35 ,8 ,28 ,94 ,4 ,185 ,X ,317 ,X ,29 ,X ,39 ,127 ,29 ,X ,X ,X ,X ,187 ,X ,
+
+
+Needed to find a memory block of atleast size47
+Found a memory block of size94
+Old block now has size47
+2709 ,X ,2 ,X ,158 ,35 ,8 ,28 ,47 ,4 ,185 ,145 ,317 ,X ,29 ,X ,39 ,127 ,29 ,X ,X ,X ,X ,187 ,X ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size158
+Old block now has size13
+2709 ,X ,2 ,X ,13 ,35 ,8 ,28 ,47 ,4 ,185 ,145 ,317 ,X ,29 ,X ,39 ,127 ,29 ,X ,X ,X ,X ,187 ,X ,47 ,X ,
+
+
+Needed to find a memory block of atleast size123
+Found a memory block of size145
+Old block now has size22
+2709 ,X ,2 ,X ,13 ,35 ,8 ,28 ,47 ,4 ,185 ,22 ,317 ,X ,29 ,X ,39 ,127 ,29 ,X ,X ,X ,X ,187 ,X ,47 ,145 ,X ,
+
+
+Needed to find a memory block of atleast size63
+Found a memory block of size127
+Old block now has size64
+2709 ,X ,2 ,X ,13 ,35 ,8 ,28 ,47 ,4 ,185 ,22 ,317 ,X ,29 ,X ,39 ,64 ,29 ,X ,X ,X ,X ,187 ,X ,47 ,145 ,123 ,X ,
+
+
+Needed to find a memory block of atleast size75
+Found a memory block of size145
+Old block now has size70
+2709 ,X ,2 ,X ,13 ,35 ,8 ,28 ,47 ,4 ,185 ,22 ,317 ,X ,29 ,X ,39 ,64 ,29 ,X ,X ,X ,X ,187 ,X ,47 ,70 ,123 ,63 ,X ,
+
+
+Needed to find a memory block of atleast size132
+Found a memory block of size187
+Old block now has size55
+2709 ,X ,2 ,X ,13 ,35 ,8 ,28 ,47 ,4 ,185 ,22 ,317 ,X ,29 ,X ,39 ,64 ,29 ,X ,X ,X ,X ,55 ,X ,47 ,70 ,123 ,63 ,75 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2709 ,X ,2 ,X ,48 ,8 ,28 ,47 ,4 ,185 ,22 ,317 ,X ,29 ,X ,39 ,64 ,29 ,X ,X ,X ,X ,55 ,X ,47 ,70 ,123 ,63 ,75 ,132 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2709 ,X ,2 ,X ,48 ,36 ,47 ,4 ,185 ,22 ,317 ,X ,29 ,X ,39 ,64 ,29 ,X ,X ,X ,X ,55 ,X ,47 ,70 ,123 ,63 ,75 ,132 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2709 ,X ,2 ,X ,48 ,36 ,51 ,185 ,22 ,317 ,X ,29 ,X ,39 ,64 ,29 ,X ,X ,X ,X ,55 ,X ,47 ,70 ,123 ,63 ,75 ,132 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2709 ,X ,2 ,X ,48 ,36 ,51 ,207 ,317 ,X ,29 ,X ,39 ,64 ,29 ,X ,X ,X ,X ,55 ,X ,47 ,70 ,123 ,63 ,75 ,132 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2709 ,X ,2 ,X ,48 ,36 ,51 ,207 ,317 ,X ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,47 ,70 ,123 ,63 ,75 ,132 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2709 ,X ,2 ,X ,48 ,36 ,51 ,207 ,317 ,X ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,117 ,123 ,63 ,75 ,132 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2709 ,X ,2 ,X ,48 ,36 ,51 ,207 ,317 ,X ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,117 ,186 ,75 ,132 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2709 ,X ,2 ,X ,48 ,36 ,51 ,207 ,317 ,X ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,117 ,186 ,207 ,
+
+
+2709 ,X ,2 ,X ,48 ,36 ,51 ,207 ,317 ,X ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,117 ,186 ,207 ,
+
+
+Needed to find a memory block of atleast size154
+Found a memory block of size2709
+Old block now has size2555
+2555 ,X ,2 ,X ,48 ,36 ,51 ,207 ,317 ,X ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,117 ,186 ,207 ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size317
+Old block now has size172
+2555 ,X ,2 ,X ,48 ,36 ,51 ,207 ,172 ,X ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,117 ,186 ,207 ,X ,X ,
+
+
+Needed to find a memory block of atleast size142
+Found a memory block of size145
+Old block now has size3
+2555 ,X ,2 ,X ,48 ,36 ,51 ,207 ,172 ,X ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,117 ,186 ,207 ,X ,3 ,X ,
+
+
+Needed to find a memory block of atleast size56
+Found a memory block of size117
+Old block now has size61
+2555 ,X ,2 ,X ,48 ,36 ,51 ,207 ,172 ,142 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,X ,3 ,X ,X ,
+
+
+Needed to find a memory block of atleast size127
+Found a memory block of size142
+Old block now has size15
+2555 ,X ,2 ,X ,48 ,36 ,51 ,207 ,172 ,15 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,X ,3 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size139
+Found a memory block of size207
+Old block now has size68
+2555 ,X ,2 ,X ,48 ,36 ,51 ,68 ,172 ,15 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,X ,3 ,X ,X ,127 ,X ,
+
+
+Needed to find a memory block of atleast size23
+Found a memory block of size68
+Old block now has size45
+2555 ,X ,2 ,X ,48 ,36 ,51 ,45 ,172 ,15 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,X ,3 ,X ,X ,127 ,139 ,X ,
+
+
+Needed to find a memory block of atleast size154
+Found a memory block of size2555
+Old block now has size2401
+2401 ,X ,2 ,X ,48 ,36 ,51 ,45 ,172 ,15 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,X ,3 ,X ,X ,127 ,139 ,23 ,X ,
+
+
+Needed to find a memory block of atleast size56
+Found a memory block of size127
+Old block now has size71
+2401 ,X ,2 ,X ,48 ,36 ,51 ,45 ,172 ,15 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,154 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,
+
+
+Needed to find a memory block of atleast size127
+Found a memory block of size154
+Old block now has size27
+2401 ,X ,2 ,56 ,48 ,36 ,51 ,45 ,172 ,15 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size29
+Found a memory block of size48
+Old block now has size19
+2401 ,X ,2 ,56 ,19 ,36 ,51 ,45 ,172 ,15 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,
+
+
+Needed to find a memory block of atleast size35
+Found a memory block of size36
+Old block now has size1
+2401 ,X ,2 ,56 ,19 ,1 ,51 ,45 ,172 ,15 ,29 ,X ,103 ,29 ,X ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2401 ,X ,58 ,19 ,1 ,51 ,45 ,172 ,15 ,29 ,X ,103 ,29 ,35 ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2401 ,X ,58 ,20 ,51 ,45 ,172 ,15 ,29 ,X ,103 ,29 ,35 ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2401 ,X ,58 ,20 ,96 ,172 ,15 ,29 ,X ,103 ,29 ,35 ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2401 ,X ,58 ,20 ,96 ,187 ,29 ,X ,103 ,29 ,35 ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2401 ,X ,58 ,20 ,96 ,187 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,61 ,186 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2401 ,X ,58 ,20 ,96 ,187 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,247 ,207 ,27 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2401 ,X ,58 ,20 ,96 ,187 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,247 ,234 ,3 ,X ,X ,71 ,139 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2401 ,X ,58 ,20 ,96 ,187 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,247 ,234 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,X ,X ,
+
+
+2401 ,X ,58 ,20 ,96 ,187 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,247 ,234 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,X ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size2401
+Old block now has size2256
+2256 ,X ,58 ,20 ,96 ,187 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,247 ,234 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size127
+Found a memory block of size187
+Old block now has size60
+2256 ,X ,58 ,20 ,96 ,60 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,247 ,234 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,X ,X ,145 ,X ,
+
+
+Needed to find a memory block of atleast size29
+Found a memory block of size247
+Old block now has size218
+2256 ,X ,58 ,20 ,96 ,60 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,218 ,234 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,X ,X ,145 ,127 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,78 ,96 ,60 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,218 ,234 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,29 ,X ,145 ,127 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,78 ,156 ,29 ,X ,132 ,35 ,X ,X ,X ,55 ,X ,218 ,234 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,29 ,X ,145 ,127 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,78 ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,218 ,234 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,29 ,X ,145 ,127 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,78 ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,210 ,23 ,X ,X ,127 ,29 ,X ,145 ,127 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,78 ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,233 ,X ,X ,127 ,29 ,X ,145 ,127 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,78 ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,233 ,X ,X ,156 ,X ,145 ,127 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,78 ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,233 ,X ,X ,156 ,X ,272 ,X ,
+
+
+2256 ,X ,78 ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,233 ,X ,X ,156 ,X ,272 ,X ,
+
+
+Needed to find a memory block of atleast size35
+Found a memory block of size156
+Old block now has size121
+2256 ,X ,78 ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,233 ,X ,X ,121 ,X ,272 ,X ,X ,
+
+
+Needed to find a memory block of atleast size8
+Found a memory block of size156
+Old block now has size148
+2256 ,X ,78 ,148 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,233 ,X ,X ,121 ,35 ,272 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size148
+Old block now has size78
+2256 ,X ,78 ,78 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,233 ,X ,X ,121 ,35 ,272 ,X ,X ,8 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,452 ,3 ,X ,X ,233 ,X ,X ,121 ,35 ,272 ,X ,X ,8 ,70 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,455 ,X ,X ,233 ,X ,X ,121 ,35 ,272 ,X ,X ,8 ,70 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,455 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,8 ,70 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2256 ,X ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,455 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,
+
+
+2256 ,X ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,455 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,
+
+
+Needed to find a memory block of atleast size44
+Found a memory block of size2256
+Old block now has size2212
+2212 ,X ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,455 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,X ,
+
+
+Needed to find a memory block of atleast size193
+Found a memory block of size455
+Old block now has size262
+2212 ,X ,156 ,29 ,X ,167 ,X ,X ,X ,55 ,X ,262 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size167
+Old block now has size97
+2212 ,X ,156 ,29 ,X ,97 ,X ,X ,X ,55 ,X ,262 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,X ,
+
+
+Needed to find a memory block of atleast size18
+Found a memory block of size156
+Old block now has size138
+2212 ,X ,138 ,29 ,X ,97 ,X ,X ,X ,55 ,X ,262 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,70 ,X ,
+
+
+Needed to find a memory block of atleast size135
+Found a memory block of size138
+Old block now has size3
+2212 ,X ,3 ,29 ,X ,97 ,X ,X ,X ,55 ,X ,262 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,70 ,X ,X ,
+
+
+Needed to find a memory block of atleast size8
+Found a memory block of size97
+Old block now has size89
+2212 ,X ,3 ,29 ,X ,89 ,X ,X ,X ,55 ,X ,262 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,70 ,X ,135 ,X ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size29
+Old block now has size18
+2212 ,X ,3 ,18 ,X ,89 ,X ,X ,X ,55 ,X ,262 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,70 ,X ,135 ,8 ,X ,
+
+
+Needed to find a memory block of atleast size63
+Found a memory block of size89
+Old block now has size26
+2212 ,X ,3 ,18 ,X ,26 ,X ,X ,X ,55 ,X ,262 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,70 ,X ,135 ,8 ,11 ,X ,
+
+
+Needed to find a memory block of atleast size161
+Found a memory block of size262
+Old block now has size101
+2212 ,X ,3 ,18 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,233 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,70 ,X ,135 ,8 ,11 ,X ,X ,
+
+
+Needed to find a memory block of atleast size94
+Found a memory block of size233
+Old block now has size139
+2212 ,X ,3 ,18 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,70 ,X ,135 ,8 ,11 ,X ,161 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2212 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,156 ,272 ,X ,X ,78 ,44 ,X ,70 ,X ,135 ,8 ,11 ,X ,161 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2212 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,78 ,44 ,X ,70 ,X ,135 ,8 ,11 ,X ,161 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2212 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,122 ,X ,70 ,X ,135 ,8 ,11 ,X ,161 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2212 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,122 ,X ,70 ,X ,143 ,11 ,X ,161 ,X ,
+
+
+2212 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,122 ,X ,70 ,X ,143 ,11 ,X ,161 ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size2212
+Old block now has size2067
+2067 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,122 ,X ,70 ,X ,143 ,11 ,X ,161 ,X ,X ,
+
+
+Needed to find a memory block of atleast size75
+Found a memory block of size143
+Old block now has size68
+2067 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,122 ,X ,70 ,X ,68 ,11 ,X ,161 ,X ,145 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2067 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,122 ,X ,70 ,X ,79 ,X ,161 ,X ,145 ,75 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+2067 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,122 ,X ,70 ,X ,79 ,X ,161 ,X ,220 ,
+
+
+2067 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,X ,X ,428 ,X ,X ,122 ,X ,70 ,X ,79 ,X ,161 ,X ,220 ,
+
+
+Needed to find a memory block of atleast size56
+Found a memory block of size154
+Old block now has size98
+2067 ,X ,21 ,X ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,98 ,X ,428 ,X ,X ,122 ,X ,70 ,X ,79 ,X ,161 ,X ,220 ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size161
+Old block now has size16
+2067 ,X ,21 ,56 ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,98 ,X ,428 ,X ,X ,122 ,X ,70 ,X ,79 ,X ,16 ,X ,220 ,X ,X ,
+
+
+Needed to find a memory block of atleast size127
+Found a memory block of size2067
+Old block now has size1940
+1940 ,X ,21 ,56 ,26 ,X ,X ,X ,55 ,X ,101 ,X ,X ,139 ,98 ,X ,428 ,X ,X ,122 ,X ,70 ,X ,79 ,X ,16 ,X ,220 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size29
+Found a memory block of size55
+Old block now has size26
+1940 ,X ,21 ,56 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,139 ,98 ,X ,428 ,X ,X ,122 ,X ,70 ,X ,79 ,X ,16 ,X ,220 ,X ,X ,127 ,X ,
+
+
+Needed to find a memory block of atleast size186
+Found a memory block of size428
+Old block now has size242
+1940 ,X ,21 ,56 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,139 ,98 ,X ,242 ,29 ,X ,122 ,X ,70 ,X ,79 ,X ,16 ,X ,220 ,X ,X ,127 ,X ,X ,
+
+
+Needed to find a memory block of atleast size193
+Found a memory block of size220
+Old block now has size27
+1940 ,X ,21 ,56 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,139 ,98 ,X ,242 ,29 ,X ,122 ,X ,70 ,X ,79 ,X ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,
+
+
+Needed to find a memory block of atleast size18
+Found a memory block of size122
+Old block now has size104
+1940 ,X ,21 ,56 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,139 ,98 ,X ,242 ,29 ,X ,104 ,193 ,70 ,X ,79 ,X ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,
+
+
+Needed to find a memory block of atleast size63
+Found a memory block of size104
+Old block now has size41
+1940 ,X ,21 ,56 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,139 ,98 ,X ,242 ,29 ,X ,41 ,193 ,70 ,X ,79 ,X ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size94
+Found a memory block of size139
+Old block now has size45
+1940 ,X ,21 ,56 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,45 ,98 ,X ,242 ,29 ,X ,41 ,193 ,70 ,X ,79 ,63 ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1940 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,45 ,98 ,X ,242 ,29 ,X ,41 ,193 ,70 ,X ,79 ,63 ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1940 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,242 ,29 ,X ,41 ,193 ,70 ,X ,79 ,63 ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1940 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,271 ,X ,41 ,193 ,70 ,X ,79 ,63 ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1940 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,271 ,X ,234 ,70 ,X ,79 ,63 ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1940 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,271 ,X ,234 ,70 ,X ,142 ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,X ,X ,
+
+
+1940 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,271 ,X ,234 ,70 ,X ,142 ,16 ,X ,27 ,X ,X ,127 ,X ,186 ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size18
+Found a memory block of size1940
+Old block now has size1922
+1922 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,271 ,X ,234 ,70 ,X ,142 ,16 ,X ,27 ,X ,145 ,127 ,X ,186 ,X ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size94
+Found a memory block of size271
+Old block now has size177
+1922 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,234 ,70 ,X ,142 ,16 ,X ,27 ,X ,145 ,127 ,X ,186 ,X ,X ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size18
+Found a memory block of size186
+Old block now has size168
+1922 ,X ,77 ,26 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,234 ,70 ,X ,142 ,16 ,X ,27 ,X ,145 ,127 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1922 ,X ,103 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,234 ,70 ,18 ,142 ,16 ,X ,27 ,X ,145 ,127 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1922 ,X ,103 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,304 ,18 ,142 ,16 ,X ,27 ,X ,145 ,127 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1922 ,X ,103 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,304 ,160 ,16 ,X ,27 ,X ,145 ,127 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1922 ,X ,103 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,304 ,160 ,16 ,X ,27 ,X ,272 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,
+
+
+1922 ,X ,103 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,304 ,160 ,16 ,X ,27 ,X ,272 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size94
+Found a memory block of size1922
+Old block now has size1828
+1828 ,X ,103 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,304 ,160 ,16 ,X ,27 ,X ,272 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size94
+Found a memory block of size103
+Old block now has size9
+1828 ,X ,9 ,X ,X ,X ,26 ,X ,101 ,X ,X ,143 ,X ,177 ,X ,304 ,160 ,16 ,X ,27 ,X ,272 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size101
+Old block now has size31
+1828 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,X ,143 ,X ,177 ,X ,304 ,160 ,16 ,X ,27 ,X ,272 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1828 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,X ,143 ,X ,177 ,X ,464 ,16 ,X ,27 ,X ,272 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,X ,70 ,
+
+
+1828 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,X ,143 ,X ,177 ,X ,464 ,16 ,X ,27 ,X ,272 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,X ,70 ,
+
+
+Needed to find a memory block of atleast size8
+Found a memory block of size1828
+Old block now has size1820
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,X ,143 ,X ,177 ,X ,464 ,16 ,X ,27 ,X ,272 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,X ,70 ,X ,
+
+
+Needed to find a memory block of atleast size154
+Found a memory block of size272
+Old block now has size118
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,X ,143 ,X ,177 ,X ,464 ,16 ,X ,27 ,X ,118 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,X ,70 ,8 ,X ,
+
+
+Needed to find a memory block of atleast size56
+Found a memory block of size70
+Old block now has size14
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,X ,143 ,X ,177 ,X ,464 ,16 ,X ,27 ,X ,118 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,X ,14 ,8 ,X ,X ,
+
+
+Needed to find a memory block of atleast size63
+Found a memory block of size143
+Old block now has size80
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,56 ,80 ,X ,177 ,X ,464 ,16 ,X ,27 ,X ,118 ,X ,168 ,X ,X ,X ,X ,X ,X ,X ,X ,X ,14 ,8 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size94
+Found a memory block of size464
+Old block now has size370
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,56 ,80 ,X ,177 ,X ,370 ,16 ,X ,27 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,14 ,8 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,136 ,X ,177 ,X ,370 ,16 ,94 ,27 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,14 ,8 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,136 ,X ,177 ,X ,386 ,94 ,27 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,14 ,8 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,136 ,X ,177 ,X ,386 ,121 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,14 ,8 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,136 ,X ,177 ,X ,386 ,121 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,22 ,X ,X ,X ,X ,
+
+
+1820 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,136 ,X ,177 ,X ,386 ,121 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,22 ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size135
+Found a memory block of size1820
+Old block now has size1685
+1685 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,136 ,X ,177 ,X ,386 ,121 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,22 ,154 ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size135
+Found a memory block of size386
+Old block now has size251
+1685 ,X ,9 ,X ,94 ,X ,26 ,X ,31 ,X ,136 ,X ,177 ,X ,251 ,121 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,22 ,154 ,X ,X ,X ,135 ,X ,
+
+
+Needed to find a memory block of atleast size8
+Found a memory block of size26
+Old block now has size18
+1685 ,X ,9 ,X ,94 ,X ,18 ,X ,31 ,X ,136 ,X ,177 ,X ,251 ,121 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,22 ,154 ,X ,X ,X ,135 ,135 ,X ,
+
+
+Needed to find a memory block of atleast size196
+Found a memory block of size251
+Old block now has size55
+1685 ,X ,9 ,X ,94 ,X ,18 ,X ,31 ,X ,136 ,X ,177 ,X ,55 ,121 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,22 ,154 ,X ,X ,X ,135 ,135 ,8 ,X ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size18
+Old block now has size7
+1685 ,X ,9 ,X ,94 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,55 ,121 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,22 ,154 ,X ,X ,X ,135 ,135 ,8 ,196 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1685 ,X ,9 ,X ,94 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,176 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,22 ,154 ,X ,X ,X ,135 ,135 ,8 ,196 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1685 ,X ,9 ,X ,94 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,176 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,135 ,135 ,8 ,196 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1685 ,X ,9 ,X ,94 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,176 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,270 ,8 ,196 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1685 ,X ,9 ,X ,94 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,176 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,270 ,204 ,X ,
+
+
+1685 ,X ,9 ,X ,94 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,176 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,270 ,204 ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size176
+Old block now has size31
+1685 ,X ,9 ,X ,94 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,270 ,204 ,X ,X ,
+
+
+Needed to find a memory block of atleast size75
+Found a memory block of size94
+Old block now has size19
+1685 ,X ,9 ,X ,19 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,270 ,204 ,X ,145 ,X ,
+
+
+Needed to find a memory block of atleast size186
+Found a memory block of size204
+Old block now has size18
+1685 ,X ,9 ,X ,19 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,270 ,18 ,X ,145 ,75 ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size270
+Old block now has size125
+1685 ,X ,9 ,X ,19 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,125 ,18 ,X ,145 ,75 ,186 ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size145
+Old block now has size75
+1685 ,X ,9 ,X ,19 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,125 ,18 ,X ,75 ,75 ,186 ,145 ,X ,
+
+
+Needed to find a memory block of atleast size8
+Found a memory block of size1685
+Old block now has size1677
+1677 ,X ,9 ,X ,19 ,X ,7 ,X ,31 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,125 ,18 ,X ,75 ,75 ,186 ,145 ,70 ,X ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size31
+Old block now has size20
+1677 ,X ,9 ,X ,19 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,125 ,18 ,X ,75 ,75 ,186 ,145 ,70 ,8 ,X ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size19
+Old block now has size8
+1677 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,125 ,18 ,X ,75 ,75 ,186 ,145 ,70 ,8 ,X ,X ,
+
+
+Needed to find a memory block of atleast size196
+Found a memory block of size1677
+Old block now has size1481
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,118 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,125 ,18 ,11 ,75 ,75 ,186 ,145 ,70 ,8 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size75
+Found a memory block of size118
+Old block now has size43
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,125 ,18 ,11 ,75 ,75 ,186 ,145 ,70 ,8 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,143 ,11 ,75 ,75 ,186 ,145 ,70 ,8 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,143 ,86 ,75 ,186 ,145 ,70 ,8 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,143 ,86 ,261 ,145 ,70 ,8 ,X ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,143 ,86 ,261 ,215 ,8 ,X ,X ,X ,X ,
+
+
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,143 ,86 ,261 ,215 ,8 ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size143
+Old block now has size73
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,177 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,73 ,86 ,261 ,215 ,8 ,X ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size8
+Found a memory block of size177
+Old block now has size169
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,73 ,86 ,261 ,215 ,8 ,X ,X ,X ,X ,70 ,X ,
+
+
+Needed to find a memory block of atleast size196
+Found a memory block of size215
+Old block now has size19
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,136 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,73 ,86 ,261 ,19 ,8 ,X ,X ,X ,X ,70 ,8 ,X ,
+
+
+Needed to find a memory block of atleast size75
+Found a memory block of size136
+Old block now has size61
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,73 ,86 ,261 ,19 ,8 ,X ,X ,X ,X ,70 ,8 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,159 ,261 ,19 ,8 ,X ,X ,X ,75 ,70 ,8 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,159 ,280 ,8 ,X ,X ,X ,75 ,70 ,8 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,159 ,280 ,8 ,X ,X ,X ,145 ,8 ,X ,X ,
+
+
+1481 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,159 ,280 ,8 ,X ,X ,X ,145 ,8 ,X ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size1481
+Old block now has size1411
+1411 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,159 ,280 ,8 ,X ,X ,196 ,145 ,8 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size159
+Old block now has size89
+1411 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,169 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,89 ,280 ,8 ,X ,X ,196 ,145 ,8 ,X ,X ,70 ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size169
+Old block now has size24
+1411 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,89 ,280 ,8 ,X ,X ,196 ,145 ,8 ,X ,X ,70 ,70 ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1411 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,369 ,8 ,X ,X ,196 ,145 ,8 ,X ,X ,70 ,70 ,145 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1411 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,369 ,8 ,X ,X ,341 ,8 ,X ,X ,70 ,70 ,145 ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1411 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,369 ,8 ,X ,X ,341 ,8 ,X ,X ,140 ,145 ,
+
+
+1411 ,X ,9 ,X ,8 ,X ,7 ,X ,20 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,369 ,8 ,X ,X ,341 ,8 ,X ,X ,140 ,145 ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size20
+Old block now has size9
+1411 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,369 ,8 ,X ,X ,341 ,8 ,X ,X ,140 ,145 ,X ,
+
+
+Needed to find a memory block of atleast size186
+Found a memory block of size1411
+Old block now has size1225
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,369 ,8 ,11 ,X ,341 ,8 ,X ,X ,140 ,145 ,X ,X ,
+
+
+Needed to find a memory block of atleast size75
+Found a memory block of size369
+Old block now has size294
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,294 ,8 ,11 ,X ,341 ,8 ,X ,X ,140 ,145 ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,302 ,11 ,X ,341 ,8 ,X ,X ,140 ,145 ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,302 ,11 ,X ,349 ,X ,X ,140 ,145 ,X ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,302 ,11 ,X ,349 ,X ,X ,285 ,X ,X ,X ,
+
+
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,302 ,11 ,X ,349 ,X ,X ,285 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size186
+Found a memory block of size196
+Old block now has size10
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,302 ,11 ,X ,349 ,10 ,X ,285 ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size75
+Found a memory block of size349
+Old block now has size274
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,302 ,11 ,X ,274 ,10 ,X ,285 ,X ,186 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size196
+Found a memory block of size274
+Old block now has size78
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,302 ,11 ,X ,78 ,10 ,75 ,285 ,X ,186 ,X ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size186
+Found a memory block of size302
+Old block now has size116
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,116 ,11 ,X ,78 ,10 ,75 ,285 ,X ,186 ,X ,X ,X ,196 ,X ,
+
+
+Needed to find a memory block of atleast size70
+Found a memory block of size196
+Old block now has size126
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,176 ,X ,X ,X ,116 ,11 ,X ,78 ,10 ,75 ,285 ,X ,186 ,X ,186 ,X ,126 ,X ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size176
+Old block now has size31
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,116 ,11 ,X ,78 ,10 ,75 ,285 ,X ,186 ,X ,186 ,X ,126 ,X ,70 ,X ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size78
+Old block now has size67
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,116 ,11 ,X ,67 ,10 ,75 ,285 ,X ,186 ,X ,186 ,X ,126 ,X ,70 ,145 ,X ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size67
+Old block now has size56
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,116 ,11 ,11 ,56 ,10 ,75 ,285 ,X ,186 ,X ,186 ,X ,126 ,X ,70 ,145 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,11 ,56 ,10 ,75 ,285 ,11 ,186 ,X ,186 ,X ,126 ,X ,70 ,145 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,67 ,10 ,75 ,285 ,11 ,186 ,X ,186 ,X ,126 ,X ,70 ,145 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,67 ,85 ,285 ,11 ,186 ,X ,186 ,X ,126 ,X ,70 ,145 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,67 ,85 ,296 ,186 ,X ,186 ,X ,126 ,X ,70 ,145 ,X ,X ,
+
+
+Did coalescing, Next line = Post-Coalescing
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,67 ,85 ,296 ,186 ,X ,186 ,X ,126 ,X ,215 ,X ,X ,
+
+
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,67 ,85 ,296 ,186 ,X ,186 ,X ,126 ,X ,215 ,X ,X ,
+
+
+Needed to find a memory block of atleast size145
+Found a memory block of size186
+Old block now has size41
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,67 ,85 ,296 ,186 ,X ,186 ,X ,126 ,41 ,215 ,X ,X ,X ,
+
+
+Needed to find a memory block of atleast size186
+Found a memory block of size296
+Old block now has size110
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,67 ,85 ,110 ,186 ,X ,186 ,X ,126 ,41 ,215 ,X ,X ,145 ,X ,
+
+
+Needed to find a memory block of atleast size11
+Found a memory block of size110
+Old block now has size99
+1225 ,X ,9 ,X ,8 ,X ,7 ,X ,9 ,X ,61 ,X ,24 ,X ,31 ,X ,43 ,X ,168 ,X ,X ,63 ,X ,X ,X ,X ,X ,X ,31 ,X ,X ,X ,127 ,67 ,85 ,99 ,186 ,X ,186 ,X ,126 ,41 ,215 ,X ,X ,145 ,186 ,X ,
+
+

@@ -1,0 +1,128 @@
+***Solar OS Version 1.3.0***
+
+Traces are in trace.txt and memoryTrace.txt
+------------------------------
+Table of Contents
+------------------------------
+
+I. Table of Contents.
+II. Overview of SolarOS
+III. Command Summary
+IV.  Command Explanations
+V. Error messages.
+VI. Index
+
+
+
+II. Overview of SolarOS:
+-------------------------
+Solar OS is a operating system simulation built on top of OSX.
+SolarOS currently supports 8 commands: 
+	1. version
+	2. date
+	3. directory
+	4. history
+        5. batch
+	6. aliasing
+	7. exit
+	8. help.
+        9. createPCB
+	10.deletePCB
+	11.block
+	12.unblock
+	13.showPCB
+	14.showAll
+	15.showReady
+	16.showBlocked
+	17.generateRandomPCBs
+	18.exec
+This is currently under rapid development, this manual will be updated frequently.
+----------------------------------------------------------------------------------
+
+III. Command Summary:
+	version - displays the current version of SolarOS
+	date - displays the current date; includes year,month,day,hour,second.
+	directory - prints a list of all the files in the directory of SolarOS
+	history - prints a history of the commands used in the shell session
+	batch -  sequentially runs a script of commands from a .txt file
+	aliasing - rename a command to something else; the original cmd still persists aswell.
+	exit - exits the program upon user confirmation.
+	help - displays the information for each command.
+	createPCB -creates a PCB and places it into the ready queue
+       deletePCB - deletes a specific PCB (removes it from ready or blocked queue)
+       block - blocks a specific process
+       unblock - removes a process from blocked queue and inserts it into ready queue
+       showPCB - displays all the information about a process
+       showAll - shows all the information about every process in every queue
+       showReady- shows all the information about every process in the ready queue
+       showBlocked - shows all the information about every process in the blocked queue
+       generateRandomPCBs - generates a specific number of random processes
+       exec - runs every process through the cpu, ends when ready & blocked queue are both empty
+-----------------------------------------------------------------------------------
+
+IV. Command Explanations:
+	date - simply calling "version" will display the current date in the OS
+
+	directory - simply calling "directory" prints a list of all the files in the directory of SolarOS
+
+	history - simply calling "history" will list a history of the commands used in the shell session
+
+	batch - after entering "batch", the user will be asked for the file name. if
+		if file name and script are valid, commands will be executed sequentially
+		otherwise, an error will be displayed that the file could not be found.
+
+	aliasing - after entering "aliasing", user will be prompted for the new command nickname 
+		   of their choice. If a command already exists, it cannot become an alias nickname. Next, 		   the user will be prompted for the base command that they are 
+		   renaming.  Aliasing currently supports both the original command name in addition to
+		   any extra aliases the command goes by. 	
+
+	exit - after entering "exit", user will be prompted to confirm the exit.
+	       if confirmed, the program will exit.
+
+	help - entering "help" will display a list of all commands in SolarOS and their descriptions.
+
+       createPCB - User enters the id of the process, and then the amount of memory of the process.
+		    the process is then created and inserted into the ready queue.
+                   will give errors if ID is not unique or memory exceeds system memory.
+
+       deletePCB - User enters the id of the process to delete. If it exists, it will be deleted
+		    and removed from its state queue. Will give error if ID does not exist.
+
+       block - User enters the id of process to block. Will remove process from ready queue and
+ 		insert it into the blocked queue. Will give error if ID is invalid.
+
+       unblock - User enters the ID of a process to unblock. Will remove process from blocked queue
+                 and insert into the ready queue. Will give error if invalid.
+
+       showPCB - User enters the ID of the process to lookup.
+                 displays what state a PCB is in as well as all of its attributes;
+  
+	showAll - Displays all the attributes of every existing process on the system.
+
+	showReady - displays all the attributes of every process in the ready queue.
+
+	showBlocked - displays all the attributes of every process in the blocked queue.
+
+	generateRandomPCBs -  User inputs how many processes to create and they will be created
+				and placed into the ready queue. Possible to have slightly less than anticipated
+				if random number generator generates a duplicate ID.
+
+       exec - runs every process on the system through the cpu, ends when ready and blocked queue
+		are both empty. Processes may be deleted, reinserted into the ready queue, or blocked to wait for an
+		i/o event depending on random number generator.
+--------------------------------------------------------------------------------------------
+
+V . Summary of error messages:
+	If a user enters an invalid command, SolarOS will inform the user and ask until the cmd is valid
+	If a user enters an incorrect input when aliasing, SolarOS will inform the user
+	and ask for correct input.
+---------------------------------------------------------------------------------------------
+VI Index -
+
+	.
+I. Table of Contents.
+II. Overview of SolarOS
+III. Command Summary
+IV.  Command Explanations
+V. Error messages.
+VI. Index
